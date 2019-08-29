@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_I
 {
-    class PareseImpares
+    public class PareseImpares
     {
-        void determina()
+        public void determina()
         {
             int num;
 

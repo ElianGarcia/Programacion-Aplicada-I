@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_I
 {
-    class Conversor
+    public class Conversor
     {
-        void gradosARad()
+        public void gradosARad()
         {
             string valor;
             float grados;
@@ -21,7 +21,7 @@ namespace Ejercicios_del_libro.Tarea_I
             Console.WriteLine("{0} convertido a radianes es: {1}", grados, radianes);
         }
 
-        void celsiusAFarenheit()
+        public void celsiusAFarenheit()
         {
             string valor;
             float celsius;
@@ -36,7 +36,7 @@ namespace Ejercicios_del_libro.Tarea_I
             Console.WriteLine("{0} celsius convertidos a farenheit son: {1}", celsius, faren);
         }
 
-        void dolarAEuro()
+        public void dolarAEuro()
         {
             float usd;
             double eur;

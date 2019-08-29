@@ -8,9 +8,11 @@ namespace Ejercicios_del_libro.Tarea_I
     {
         string nombre = "Elian Garcia";
 
-        void imprimirNombre()
+        public void imprimirNombre()
         {
             Console.WriteLine(nombre);
+            Console.WriteLine("Soy estudiante de ingenieria en sistemas en la UCNE");
+            Console.WriteLine("Buenos Dias!");
         }
 
     }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_I
 {
-    class DiasSemana
+    public class DiasSemana
     {
-        void imprimirDias()
+        public void imprimirDias()
         {
             string valor;
             int num;

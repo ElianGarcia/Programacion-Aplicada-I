@@ -10,7 +10,7 @@ namespace Ejercicios_del_libro.Tarea_I
         double perim, area;
         float longitud, apotema;
 
-        void calcularArea()
+        public void calcularArea()
         {
             Console.WriteLine("Digite el numero de lados: ");
             lados = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace Ejercicios_del_libro.Tarea_I
             Console.WriteLine("El area del poligono es: {0}", area);
         }
 
-        void calcularPerimetro()
+        public void calcularPerimetro()
         {
             float longitud, perimetro;
 

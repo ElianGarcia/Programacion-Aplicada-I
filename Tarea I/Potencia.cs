@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_I
 {
-    class Potencia
+    public class Potencia
     {
-        void calcularPotencia()
+        public void calcularPotencia()
         {
             int num, exponente;
             double result;

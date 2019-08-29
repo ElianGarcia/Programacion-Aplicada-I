@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_I
 {
-    class TablaDeMultiplicar
+    public class TablaDeMultiplicar
     {
-        void imprimirTabla()
+        public void imprimirTabla()
         {
             int num, result;
 
