@@ -21,6 +21,7 @@ namespace Ejercicios_del_libro
             Console.WriteLine("10. Imprimir el dia de la semana");
             Console.WriteLine("11. Salir");
         }
+
         static void Main(string[] args)
         {
             int opcion;
