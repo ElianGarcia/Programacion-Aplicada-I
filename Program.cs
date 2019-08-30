@@ -8,6 +8,7 @@ namespace Ejercicios_del_libro
     {
         public static void menu()
         {
+            Console.Clear();
             Console.WriteLine("Digite el numero de la opcion que desea: ");
             Console.WriteLine("1. Escribir nombre y mensaje en pantalla");
             Console.WriteLine("2. Convertir USD a EUR");
@@ -19,7 +20,8 @@ namespace Ejercicios_del_libro
             Console.WriteLine("8. Determinar el area de un poligono regular");
             Console.WriteLine("9. Determinar el perimetro de un poligono regular");
             Console.WriteLine("10. Imprimir el dia de la semana");
-            Console.WriteLine("11. Salir");
+            Console.WriteLine("11. Determinar mayor, menor y promedio de 10 edades");
+            Console.WriteLine("12. Salir");
         }
 
         static void Main(string[] args)
@@ -40,61 +42,79 @@ namespace Ejercicios_del_libro
                         Console.Clear();
                         Nombre nombre = new Nombre();
                         nombre.imprimirNombre();
+                        Console.ReadKey();
                         break;
                     case 2:
                         Console.Clear();
                         conversor = new Conversor();
                         conversor.dolarAEuro();
+                        Console.ReadKey();
                         break;
                     case 3:
                         Console.Clear();
                         conversor = new Conversor();
                         conversor.gradosARad();
+                        Console.ReadKey();
                         break;
                     case 4:
                         Console.Clear();
                         conversor = new Conversor();
                         conversor.celsiusAFarenheit();
+                        Console.ReadKey();
                         break;
                     case 5:
                         Console.Clear();
                         PareseImpares par = new PareseImpares();
                         par.determina();
+                        Console.ReadKey();
                         break;
                     case 6:
                         Console.Clear();
                         TablaDeMultiplicar tb = new TablaDeMultiplicar();
                         tb.imprimirTabla();
+                        Console.ReadKey();
                         break;
                     case 7:
                         Console.Clear();
                         Potencia potencia = new Potencia();
                         potencia.calcularPotencia();
+                        Console.ReadKey();
                         break;
                     case 8:
                         Console.Clear();
                         ap = new AreaPerimetro();
                         ap.calcularArea();
+                        Console.ReadKey();
                         break;
                     case 9:
                         Console.Clear();
                         ap = new AreaPerimetro();
                         ap.calcularPerimetro();
+                        Console.ReadKey();
                         break;
                     case 10:
                         Console.Clear();
                         DiasSemana dias = new DiasSemana();
                         dias.imprimirDias();
+                        Console.ReadKey();
                         break;
                     case 11:
+                        Console.Clear();
+                        PromedioPersonas promedio = new PromedioPersonas();
+                        promedio.pedirEdades();
+                        Console.ReadKey();
+                        break;
+                    case 12:
                         Environment.Exit(0);
                         break;
                     default:
+                        Console.Clear();
                         Console.WriteLine("***Opcion incorrecta***");
+                        Console.ReadKey();
                         break;
                 }
             } while (opcion != 11);
-            
+                
         }
     }
 }
