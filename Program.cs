@@ -6,12 +6,30 @@ namespace Ejercicios_del_libro
 {
     class Program
     {
-        public static void menu()
+        public static void menuTareaI()
         {
             Console.Clear();
             Console.WriteLine("Digite el numero de la opcion que desea: ");
             Console.WriteLine("1. Escribir nombre y mensaje en pantalla");
             Console.WriteLine("2. Convertir USD a EUR");
+            Console.WriteLine("3. Convertir Grados a Radianes");
+            Console.WriteLine("4. Convertir Celsius a Farenheit");
+            Console.WriteLine("5. Determinar si un numero es par o impar");
+            Console.WriteLine("6. Imprimir la tabla de multiplicar de un numero");
+            Console.WriteLine("7. Sacar la potencia a un numero");
+            Console.WriteLine("8. Determinar el area de un poligono regular");
+            Console.WriteLine("9. Determinar el perimetro de un poligono regular");
+            Console.WriteLine("10. Imprimir el dia de la semana");
+            Console.WriteLine("11. Determinar mayor, menor y promedio de 10 edades");
+            Console.WriteLine("12. Salir");
+        }
+
+        public static void menuTareaII()
+        {
+            Console.Clear();
+            Console.WriteLine("Digite el numero de la opcion que desea: ");
+            Console.WriteLine("1. Factorial de un numero");
+            Console.WriteLine("2. Convertir numero a letras");
             Console.WriteLine("3. Convertir Grados a Radianes");
             Console.WriteLine("4. Convertir Celsius a Farenheit");
             Console.WriteLine("5. Determinar si un numero es par o impar");
@@ -32,7 +50,7 @@ namespace Ejercicios_del_libro
 
             do
             {
-                menu();
+                menuTareaI();
 
                 opcion = Convert.ToInt32(Console.ReadLine());
 
