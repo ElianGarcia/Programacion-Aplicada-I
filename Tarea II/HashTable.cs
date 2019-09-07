@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Ejercicios_del_libro.Tarea_II
 {
@@ -10,11 +8,10 @@ namespace Ejercicios_del_libro.Tarea_II
         public void definicion()
         {
             Hashtable miTabla = new Hashtable();
-            miTabla.Add("Anjá", "Es una expresión que significa: 'Como!?', 'Wao!?', 'cáspita!'");
-            miTabla.Add("Andá", "Es una expresión muy usada por los dominicanos, similar a 'que pena', 'es lamentable'.");
-            miTabla.Add("Abombarse", "Proceso de putrefacción del agua, frutas o los alimentos.");
-            miTabla.Add("Abombao", "Haber comido mucho, lleno de alimentos.");
-            miTabla.Add("Abimbao", "Dícese de la persona que acaban de dar una paliza o muchos golpes, hinchada.");
+            miTabla.Add("Adjudicar", "Declarar que determinada cosa corresponde a una persona o conferírsela en satisfacción de un derecho.");
+            miTabla.Add("Repeler", "Rechazar o contradecir una idea o una proposición.");
+            miTabla.Add("Hedonismo", "Doctrina ética que identifica el bien con el placer, especialmente con el placer sensorial e inmediato.");
+            miTabla.Add("Extremismo", "Tendencia a adoptar ideas o actitudes extremas, especialmente en política.");
             
             Console.WriteLine("*** Diccionario ***");
             foreach (DictionaryEntry datos in miTabla)
