@@ -1,6 +1,7 @@
 ﻿using Ejercicios_del_libro.Tarea_I;
 using Ejercicios_del_libro.Tarea_II;
 using System;
+using System.Windows;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Ejercicios_del_libro
@@ -39,11 +40,13 @@ namespace Ejercicios_del_libro
             Console.WriteLine("8. Salir");
         }
 
+        [STAThread]
         static void Main(string[] args)
         {
-            int opcion;
-            //Conversor conversor;
-            //AreaPerimetro ap;
+
+            /*int opcion;
+            Conversor conversor;
+            AreaPerimetro ap;
 
             do
             {
@@ -106,84 +109,84 @@ namespace Ejercicios_del_libro
                         break;
                 }
 
-                        /*switch (opcion)
-                        {
-                            case 1:
-                                Console.Clear();
-                                Nombre nombre = new Nombre();
-                                nombre.imprimirNombre();
-                                Console.ReadKey();
-                                break;
-                            case 2:
-                                Console.Clear();
-                                conversor = new Conversor();
-                                conversor.dolarAEuro();
-                                Console.ReadKey();
-                                break;
-                            case 3:
-                                Console.Clear();
-                                conversor = new Conversor();
-                                conversor.gradosARad();
-                                Console.ReadKey();
-                                break;
-                            case 4:
-                                Console.Clear();
-                                conversor = new Conversor();
-                                conversor.celsiusAFarenheit();
-                                Console.ReadKey();
-                                break;
-                            case 5:
-                                Console.Clear();
-                                PareseImpares par = new PareseImpares();
-                                par.determina();
-                                Console.ReadKey();
-                                break;
-                            case 6:
-                                Console.Clear();
-                                TablaDeMultiplicar tb = new TablaDeMultiplicar();
-                                tb.imprimirTabla();
-                                Console.ReadKey();
-                                break;
-                            case 7:
-                                Console.Clear();
-                                Potencia potencia = new Potencia();
-                                potencia.calcularPotencia();
-                                Console.ReadKey();
-                                break;
-                            case 8:
-                                Console.Clear();
-                                ap = new AreaPerimetro();
-                                ap.calcularArea();
-                                Console.ReadKey();
-                                break;
-                            case 9:
-                                Console.Clear();
-                                ap = new AreaPerimetro();
-                                ap.calcularPerimetro();
-                                Console.ReadKey();
-                                break;
-                            case 10:
-                                Console.Clear();
-                                DiasSemana dias = new DiasSemana();
-                                dias.imprimirDias();
-                                Console.ReadKey();
-                                break;
-                            case 11:
-                                Console.Clear();
-                                PromedioPersonas promedio = new PromedioPersonas();
-                                promedio.pedirEdades();
-                                Console.ReadKey();
-                                break;
-                            case 12:
-                                Environment.Exit(0);
-                                break;
-                            default:
-                                Console.Clear();
-                                Console.WriteLine("***Opcion incorrecta***");
-                                Console.ReadKey();
-                                break;
-                        }*/
-                } while (opcion != 8);
+                switch (opcion)
+                {
+                    case 1:
+                        Console.Clear();
+                        Nombre nombre = new Nombre();
+                        nombre.imprimirNombre();
+                        Console.ReadKey();
+                        break;
+                    case 2:
+                        Console.Clear();
+                        conversor = new Conversor();
+                        conversor.dolarAEuro();
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        Console.Clear();
+                        conversor = new Conversor();
+                        conversor.gradosARad();
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        Console.Clear();
+                        conversor = new Conversor();
+                        conversor.celsiusAFarenheit();
+                        Console.ReadKey();
+                        break;
+                    case 5:
+                        Console.Clear();
+                        PareseImpares par = new PareseImpares();
+                        par.determina();
+                        Console.ReadKey();
+                        break;
+                    case 6:
+                        Console.Clear();
+                        TablaDeMultiplicar tb = new TablaDeMultiplicar();
+                        tb.imprimirTabla();
+                        Console.ReadKey();
+                        break;
+                    case 7:
+                        Console.Clear();
+                        Potencia potencia = new Potencia();
+                        potencia.calcularPotencia();
+                        Console.ReadKey();
+                        break;
+                    case 8:
+                        Console.Clear();
+                        ap = new AreaPerimetro();
+                        ap.calcularArea();
+                        Console.ReadKey();
+                        break;
+                    case 9:
+                        Console.Clear();
+                        ap = new AreaPerimetro();
+                        ap.calcularPerimetro();
+                        Console.ReadKey();
+                        break;
+                    case 10:
+                        Console.Clear();
+                        DiasSemana dias = new DiasSemana();
+                        dias.imprimirDias();
+                        Console.ReadKey();
+                        break;
+                    case 11:
+                        Console.Clear();
+                        PromedioPersonas promedio = new PromedioPersonas();
+                        promedio.pedirEdades();
+                        Console.ReadKey();
+                        break;
+                    case 12:
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("***Opcion incorrecta***");
+                        Console.ReadKey();
+                        break;
+                }
+        } while (opcion != 8);*/
                 
         }
     }
