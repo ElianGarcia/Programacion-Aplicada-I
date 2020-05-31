@@ -1,8 +1,9 @@
 ﻿using Ejercicios_del_libro.Tarea_I;
 using Ejercicios_del_libro.Tarea_II;
+using Tarea_III.Tarea_III;
 using System;
-using System.Windows;
 using static System.Net.Mime.MediaTypeNames;
+using Tarea_III;
 
 namespace Ejercicios_del_libro
 {
@@ -43,7 +44,7 @@ namespace Ejercicios_del_libro
         [STAThread]
         static void Main(string[] args)
         {
-
+            
             /*int opcion;
             Conversor conversor;
             AreaPerimetro ap;
@@ -187,7 +188,7 @@ namespace Ejercicios_del_libro
                         break;
                 }
         } while (opcion != 8);*/
-                
+
         }
     }
 }
